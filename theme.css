@@ -1,0 +1,226 @@
+.center {
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 70%;
+	background-color: #ecf0f1;
+}
+.pcenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	height: 40%
+}
+
+body {
+	background-image: url("maze.png");
+	background-repeat: repeat;
+	margin: 0;
+	padding: 0;
+	background-color: #D2D7D3; 
+	color: #29293D;
+}
+
+div.bod {
+	position: relative;
+	padding: 3%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+div.header {
+	background-color: #E74C3C;
+	color: #EEEEEE;
+	height: 4em;
+	margin-top: -22px;
+
+}
+div.nav {
+
+	background-color: #C0392B;
+	display: block;
+
+	padding: 1%;
+} 
+
+.col-3 { 
+	float: left;  
+	width: 30.8%; 
+	margin-right: 3.8%; 
+}
+
+.last { 
+	margin-right: 0; 
+}
+/*
+img.resize {
+	width:200px;
+	height: auto;
+}
+*/
+
+.portimage {
+	min-width: 100px;
+	max-width: 80%;
+
+}
+
+.dimmed {
+  position: relative;
+}
+
+.dimmed:after {
+  content: " ";
+  z-index: 10;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.round {
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: 10%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+
+.round:hover {
+	opacity: .8;
+	background: #eee;
+	width: 100%;
+	height: 100%;
+	transition:opacity .2s ease-out, background .2s ease-in;
+}
+/*
+#overlay {
+	background: rgba(0,0,0, .60);
+	text-align: center;
+	opacity: 0;
+	-webkit-transition: opacity .25s ease;
+	-moz-transition: opacity .25s ease;
+
+}
+
+#round:hover #overlay {
+	opacity: 1;
+
+}
+
+#plus {
+	font-family: "Open Sans";
+	font-weight: 300;
+	color: rgba(255, 255, 255, .7);
+	font-size: 1em;
+}
+*/
+.round img {
+	display: block;
+	width: 100%;
+	min-width: 30px;
+	min-height: 30px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.home {
+	min-width: 20%;
+	min-height: 20%;
+	max-height: 40%;
+	max-width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.circle {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 100px;
+
+    width: 200px;
+    height: 200px;
+}
+p {
+	font-family: "Open Sans";
+}
+
+h1 {	
+	font-family: "Open Sans";
+	vertical-align: middle;
+	font-weight: 300;
+	height: 20;
+	line-height: 2;
+}
+h2 {	
+	font-family: "Open Sans";
+	font-weight: ultrablack;
+}
+h3 {	
+	font-family: "Open Sans";
+}
+h4 {	
+	font-family: "Open Sans";
+	font-weight: 500;
+}
+
+h4.list {
+	text-indent: 5%;
+	line-height: .5em;
+}
+
+h5 {
+	font-family: "Open Sans";
+	font-weight: 500;
+}
+subhead {
+	font-family: "Open Sans";
+}
+subhead.bold {
+	font-family: "Open Sans";
+	font-style: bold;
+}
+li {
+	font-family: "Open Sans";
+
+}
+
+li.nav {
+	display: inline;
+	text-align: center;
+	padding: 40px;
+}
+
+a {
+	color: #E74C3C;
+	text-decoration: underline;
+	transition:color .2s ease-out, background .5s ease-in;
+}
+
+a:hover {
+	color: #C0392B;
+	text-decoration: none;
+}
+li.nav a {
+	color: #fff;
+	font-weight: 200;
+	text-decoration: none;
+}
+li.nav a:hover {
+	color: #E74C3C;
+}
+
+ul {
+	list-style-type: circle;
+}	
+ul.nav {
+	list-style-type: none;
+	text-align: center;
+}
