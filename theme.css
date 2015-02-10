@@ -219,6 +219,10 @@ li.nav a:hover {
 
 ul {
 	list-style-type: circle;
+}
+
+.plain {
+	list-style-type: none;
 }	
 ul.nav {
 	list-style-type: none;
