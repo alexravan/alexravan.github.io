@@ -1,9 +1,14 @@
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
 .center {
 	margin-left: auto;
 	margin-right: auto;
 
 	width: 70%;
 	background-color: #ecf0f1;
+}
+
+.centertext{
+	text-align: center;
 }
 .pcenter {
 	display: block;
