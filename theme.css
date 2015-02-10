@@ -217,11 +217,11 @@ li.nav a:hover {
 	color: #E74C3C;
 }
 
-ul {
+ul.resume {
 	list-style-type: circle;
 }
 
-.plain {
+ul.plain {
 	list-style-type: none;
 }	
 ul.nav {
