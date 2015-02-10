@@ -161,12 +161,10 @@ h1 {
 	font-family: "Open Sans";
 	vertical-align: middle;
 	font-weight: 300;
-	height: 20;
 	line-height: 2;
 }
 h2 {	
 	font-family: "Open Sans";
-	font-weight: ultrablack;
 }
 h3 {	
 	font-family: "Open Sans";
@@ -185,13 +183,10 @@ h5 {
 	font-family: "Open Sans";
 	font-weight: 500;
 }
-subhead {
+.subhead {
 	font-family: "Open Sans";
 }
-subhead.bold {
-	font-family: "Open Sans";
-	font-style: bold;
-}
+
 li {
 	font-family: "Open Sans";
 
