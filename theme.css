@@ -153,6 +153,7 @@ img.circle {
     width: 200px;
     height: 200px;
 }
+
 p {
 	font-family: "Open Sans";
 }
@@ -183,12 +184,20 @@ h5 {
 	font-family: "Open Sans";
 	font-weight: 500;
 }
+
+h6 {
+	font-family: "Open Sans";
+	font-size: 15px;
+
+	font-weight: 400;
+}
 .subhead {
 	font-family: "Open Sans";
 }
 
 li {
 	font-family: "Open Sans";
+
 
 }
 
@@ -219,9 +228,10 @@ li.nav a:hover {
 
 ul.resume {
 	list-style-type: circle;
+	font-family: "Open Sans";
 }
 
-ul.plain {
+.plain {
 	list-style-type: none;
 }	
 ul.nav {
