@@ -234,6 +234,11 @@ ul.resume {
 .plain {
 	list-style-type: none;
 }	
+
+.bio {
+	width: 80%;
+	font-size: 80%;
+}
 ul.nav {
 	list-style-type: none;
 	text-align: center;
