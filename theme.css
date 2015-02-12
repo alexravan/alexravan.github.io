@@ -121,8 +121,8 @@ img.resize {
 }
 
 #plus {
-	font-family: "Open Sans"  "Avenir Next" "Helvetica Neue" 
-	"Verdana" sans-serif;
+	font-family: "Open Sans", "Avenir Next", "Helvetica Neue", 
+	Verdana, sans-serif;
 	font-weight: 300;
 	color: rgba(255, 255, 255, .7);
 	font-size: 1em;
@@ -156,28 +156,25 @@ img.circle {
 }
 
 p {
-	font-family: "Open Sans"  "Avenir Next" "Helvetica Neue" 
-	"Verdana" sans-serif;
-}
+	font-family: "Open Sans", "Avenir Next", "Helvetica Neue", 
+	Verdana, sans-serif;}
 
 h1 {	
-	font-family: "Open Sans"  "Avenir Next" "Helvetica Neue" 
-	"Verdana" sans-serif;
+	font-family: "Open Sans", "Avenir Next", "Helvetica Neue", 
+	Verdana, sans-serif;
 	vertical-align: middle;
 	font-weight: 300;
 	line-height: 2;
 }
 h2 {	
-	font-family: "Open Sans"  "Avenir Next" "Helvetica Neue" 
-	"Verdana" sans-serif;
-}
+	font-family: "Open Sans", "Avenir Next", "Helvetica Neue", 
+	Verdana, sans-serif;}
 h3 {	
-	font-family: "Open Sans"  "Avenir Next" "Helvetica Neue" 
-	"Verdana" sans-serif;
-}
+	font-family: "Open Sans", "Avenir Next", "Helvetica Neue", 
+	Verdana, sans-serif;}
 h4 {	
-	font-family: "Open Sans"  "Avenir Next" "Helvetica Neue" 
-	"Verdana" sans-serif;
+	font-family: "Open Sans", "Avenir Next", "Helvetica Neue", 
+	Verdana, sans-serif;
 	font-weight: 500;
 }
 
@@ -187,27 +184,25 @@ h4.list {
 }
 
 h5 {
-	font-family: "Open Sans"  "Avenir Next" "Helvetica Neue" 
-	"Verdana" sans-serif;
+	font-family: "Open Sans", "Avenir Next", "Helvetica Neue", 
+	Verdana, sans-serif;
 	font-weight: 500;
 }
 
 h6 {
-	font-family: "Open Sans"  "Avenir Next" "Helvetica Neue" 
-	"Verdana" sans-serif;
+	font-family: "Open Sans", "Avenir Next", "Helvetica Neue", 
+	Verdana, sans-serif;
 	font-size: 15px;
 
 	font-weight: 400;
 }
 .subhead {
-	font-family: "Open Sans"  "Avenir Next" "Helvetica Neue" 
-	"Verdana" sans-serif;
-}
+	font-family: "Open Sans", "Avenir Next", "Helvetica Neue", 
+	Verdana, sans-serif;}
 
 li {
-	font-family: "Open Sans"  "Avenir Next" "Helvetica Neue" 
-	"Verdana" sans-serif;
-
+	font-family: "Open Sans", "Avenir Next", "Helvetica Neue", 
+	Verdana, sans-serif;
 
 }
 
@@ -238,8 +233,8 @@ li.nav a:hover {
 
 ul.resume {
 	list-style-type: circle;
-	font-family: "Open Sans"  "Avenir Next" "Helvetica Neue" 
-	"Verdana" sans-serif;
+	font-family: "Open Sans", "Avenir Next", "Helvetica Neue", 
+	Verdana, sans-serif;
 }
 
 .plain {
