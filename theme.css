@@ -66,6 +66,12 @@ div.nav {
 
 }
 
+.mobilemockup {
+	min-width: 250px;
+	max-width: 40%;
+
+}
+
 .dimmed:after {
   content: " ";
   z-index: 10;
