@@ -1,0 +1,189 @@
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -100px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 170px;
+}
+#footer {
+  background-color: #222222;
+  padding-top: 0px;
+}
+
+
+a.navbar-brand:link {
+  font-family: 'Playfair Display', serif;
+  /*font-style: italic;*/
+  font-weight: bold;
+  font-size: 2em;
+  color: #eeeeee;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+a.navbar-brand:hover {
+  color: green;
+}
+
+a.navbar-right:hover {
+  content:"";
+  position:absolute;
+  left:25%;
+  right:25%;
+  bottom:0;
+  /*border:1px solid rgb(254, 173, 55);*/
+}
+
+a.current {
+/*  content:"";
+  position:absolute;
+  left:10%;
+  right:10%;
+  bottom: 0;*/
+  /*border-bottom: 1px solid rgb(254, 173, 55);*/
+}
+
+.navbar-default {
+  height: 70px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  /*background: transparent;*/
+  /*color: black;*/
+}
+
+.page-scroll {
+  font-family: 'museo_sans100';
+
+ }
+.navbar-right {
+  padding-top: 4px;
+}
+
+.fill {
+  background: url(../images/mount2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#home {
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+.welcome {
+  font-size: 3em;
+  font-family: 'Playfair Display', Georgia, serif;
+  /*font-variant: italic;*/
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 3%;
+  /*line-height: 4em;*/
+}
+
+.welcome:after {
+    content: "";
+    display: block;
+    width: 46px;
+    height: 2px;
+    background: #efc337;
+    position: absolute;
+    left: 10;
+    bottom: -10px;
+    /*padding-bottom: 20px;*/
+}
+
+.copy {
+  font-family: "museo_sans100";
+  /*font-style: normal;*/
+  font-size: 1.3em;
+  color: white;
+}
+
+.contact {
+  font-size: 1.4em;
+
+}
+
+.foot {
+  font-family: "museo_sans100";
+  color: white;
+}
+.foot > h3 {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  line-height:  2em;
+}
+
+.otw  {
+  font-size: .9em;
+  color: white;
+  list-style-type: none;
+}
+
+.alignleft {
+  text-align: left;
+}
+
+.footright {
+  text-align: right;
+  float: right;
+/*  margin: auto;
+  margin-right: 0;
+  margin-left: 100%;*/
+
+  /*width: 100%;*/
+  /*display: block;*/
+}
+
+.footright > table {
+  /*width: 100%;*/
+}
+
+a {
+  color: #efc337;
+}
+
+a:hover {
+  color: #efc337;
+}
+
+.glyphicon.contact {
+  color: #efc337;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+  #footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 290px;
+  }
+  .footright {
+    text-align: left;
+
+  }
+
+}
