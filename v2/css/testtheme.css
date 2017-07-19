@@ -10,7 +10,7 @@ body {
   height: auto !important;
   height: 100%;
   /* Negative indent footer by it's height */
-  margin: 0 auto -100px;
+  margin: 0 auto -170px;
 }
 
 /* Set the fixed height of the footer here */
@@ -19,8 +19,13 @@ body {
   height: 170px;
 }
 #footer {
+  width: 100%;
+  height: 170px;
   background-color: #222222;
   padding-top: 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 
@@ -73,7 +78,7 @@ a.current {
 }
 
 .fill {
-  background: url(../images/mount2.jpg);
+  /*background: url(../images/mount2.jpg);*/
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -83,6 +88,7 @@ a.current {
 #home {
   padding-top: 6em;
   padding-bottom: 6em;
+  overflow: scroll;
 }
 
 .welcome {
@@ -172,13 +178,119 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+
+/*div.bod {
+  position: relative;
+  padding: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+}*/
+
+
+.round {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.round img {
+  display: block;
+  width: 100%;
+  min-width: 30px;
+  min-height: 30px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.round:hover {
+  opacity: .8;
+  background: #eee;
+  width: 100%;
+  height: 100%;
+  transition:opacity .2s ease-out, background .2s ease-in;
+}
+
+
+
+
+/*.round:hover {
+  /*opacity: .8;*/
+  background: #eee;
+  width: 100%;
+  height: 100%;
+  transition:opacity .2s ease-out, background .2s ease-in;
+}
+*/.port {
+  background-color: #bbb;
+}
+
+/*.col-3 { 
+  float: left;  
+  width: 30.8%; 
+  margin-right: 3.8%; 
+}*/
+
+.col-3 { 
+  float: left;  
+  width: 100%; 
+  margin-right: 3.8%; 
+}
+
+
+
+.round {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 10%;
+  max-width: 50%;
+  max-height: 50%;
+    margin: 0 auto; 
+  margin-top: 70px;
+
+}
+
+.round img {
+  display: block;
+  width: 100%;
+  min-width: 30px;
+  min-height: 30px;
+  /*max-width: 80px%;*/
+  /*max-height: 80px;*/
+  max-height: 50%;
+}
 /* Lastly, apply responsive CSS fixes as necessary */
+@media (max-wdth: 1200px) {
+  .round  {
+    max-width: 30%;
+    max-height: 30%;
+  }
+}
+
+@media (max-width: 500px) {
+  .round  {
+    /*max-width: 100%;*/
+    /*max-height: 100%;*/
+  }
+}
 @media (max-width: 767px) {
+  .round  {
+    /*max-width: 50%;*/
+    /*max-height: 50%;*/
+  }
+
+  
+
   #footer {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    /*margin-left: -20px;*/
+    /*margin-right: -20px;/*/
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
+    bottom: 0;
+    left:0;
     height: 290px;
   }
   .footright {
@@ -186,4 +298,21 @@ ul {
 
   }
 
+  #push,
+  #footer {
+  height: 290px;
+  }
+
+  #wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -290px;
+}
+
+}
+
+body {
+  background-color: #aaa;
 }
