@@ -1,0 +1,97 @@
+<!-- vox.nunjuck -->
+{% extends "layout.nunjucks" %}
+{% set page_title = "Collections | Vox Populi" %}
+{% set body_class = "project" %}
+
+{% block content %}
+<div class='container full' >
+<img id='cover' src="img/work/vox/cover2.jpg">
+</div>
+
+<div class='container content'>
+	<div class='row'>
+		<div class='col-xs-20 col-xs-offset-2 col-sm-offset-0 col-sm-24'>
+			<h2 >Collections | <i>Vox Populi</i>, Volume XXII </h2>
+
+			<p>
+				<i>Vox Populi</i> is the Harvard-Westlake School Yearbook. Volume XXII was awarded a Gold Crown and 9 <a target="_blank" href="http://cspa.columbia.edu/recepient-lists/2014-awards-student-work-gold-circle-awards-scholastic-recipients">Gold Circle Awards</a>  from the CSPA and recognized as an NSPA <a target="_blank" href='http://studentpress.org/nspa/2013-nspa-yearbook-pacemaker-finalists-announced/'>Yearbook Pacemaker Finalist</a> and a CSPA All-Columbian for Visuals.</p>
+				<ul>
+					<li>Editorial Design</li>
+					<li>Performance Photography</li>
+					<li>Sports Photograpgy</li>
+				</ul>
+
+
+			</div>
+		</div>
+		<div class='gallery'>
+			<div class='col-xs-24 col-md-20 col-md-offset-2'>
+				<img src="img/work/vox/vox_01.png">
+			</div>
+			<div class='col-xs-24 col-md-20 col-md-offset-2'>
+				<img src="img/work/vox/vox_02.png">
+			</div>
+			<div class='col-xs-24 col-md-20 col-md-offset-2'>
+				<img src="img/work/vox/vox_03.png">
+			</div>
+			<div class='col-xs-24 col-md-20 col-md-offset-2'>
+				<img src="img/work/vox/vox_04.png">
+			</div>
+			<div class='col-xs-24 col-md-20 col-md-offset-2'>
+				<img src="img/work/vox/vox_05.png">
+			</div>
+			<div class='col-xs-24 col-md-20 col-md-offset-2'>
+				<img src="img/work/vox/vox_06.png">
+			</div>
+			<div class='col-xs-24 col-md-20 col-md-offset-2'>
+				<img src="img/work/vox/vox_07.png">
+			</div>
+			<div class='col-xs-24 col-md-20 col-md-offset-2'>
+				<img src="img/work/vox/vox_08.png">
+			</div>
+			<div class='col-xs-24 col-md-20 col-md-offset-2'>
+				<img src="img/work/vox/vox_09.png">
+			</div>
+			<div class='col-xs-24 col-md-20 col-md-offset-2'>
+				<img src="img/work/vox/vox_10.png">
+			</div>
+			<div class='col-xs-24 col-md-20 col-md-offset-2'>
+				<img src="img/work/vox/vox_11.png">
+			</div>
+			<div class='col-xs-24 col-md-20 col-md-offset-2'>
+				<img src="img/work/vox/vox_12.png">
+			</div>
+
+			<div class='col-xs-24 col-md-20 col-md-offset-2'>
+				<img src="img/work/vox/vox_13.png">
+			</div>
+
+			<div class='col-xs-24 col-md-20 col-md-offset-2'>
+				<img src="img/work/vox/vox_14.png">
+			</div>
+
+		</div>
+	</div>
+{% endblock %}
+
+{% block js %}
+    <script type="text/javascript">
+    	function resize(){
+        windowWidth = $(window).width()
+
+          if ( windowWidth < 800 ){
+            $('#cover').attr('src', 'img/work/vox/cover2-01.jpg');
+          }
+          else if (windowWidth >= 800 && windowWidth < 1200) {
+            $('#cover').attr('src', 'img/work/vox/cover2-02.jpg');
+          }
+          else if (windowWidth >= 1200) {
+            $('#cover').attr('src', 'img/work/vox/cover2-03.jpg');
+          }
+      }
+
+      resize();
+      $(window).on('resize', resize);
+
+    </script>
+{% endblock %}

@@ -1,0 +1,306 @@
+<!-- about.nunjucks -->
+{% extends "layout.nunjucks" %}
+{% set page_title = "About" %}
+
+{% block content %}
+<div class='container full' id='about-full'>
+<!-- <img src="img/headers/about-06.png" class='responsify'  alt="" data-focus-left="0.01" data-focus-top="0.30" data-focus-right="0.98" data-focus-bottom="0.74"/> -->
+</div>
+
+<div class='container reveal'>
+	<div class='col-xs-24 content col-lg-20 col-lg-offset-2' style="padding-bottom: 0px;">
+		<h1> <span class='fancy'> Skills &amp; Expertise</span></h1>
+
+		<!-- <h4>I’m Alexander Ravan, a Los Angeles native and currently a senior at Tufts University in the School of Arts and Sciences. I expect to graduate in May 2017 with a Bachelor of Science in Computer Science and a minor in Entrepreneurial Leadership.</h4> -->
+
+		<h4>I have experience in web engineering, both frontend and backend, using frameworks such as Angular, Flask, Node, Ruby on Rails, Bootstrap, and C3.js. I have also developed UX/UI for both web and mobile apps. Additionally, I have some experience in Natural Language Processing using Python, NLTK, and scikit-learn. I've highlighted some of my skills below.</h4>
+	</div>
+
+
+</div>
+
+
+<div class='container content hidden-xs reveal'>			
+		<div class='frow'>
+			<div class='col-xs-24 col-sm-11 col-sm-offset-1 skills fcol equal'>
+				<div class=''>
+					<h6 class='center'>Programming Languages</h6> 
+				</div>
+			</div>
+			<div class='col-xs-24 col-sm-11 skills fcol equal'>
+				<div>
+						<h6 class='center'>Software</h6>
+					</div>
+			</div>
+		</div>
+
+			<div class='col-xs-24 col-sm-11 col-sm-offset-1 skills' id='sk1'>
+				<!-- <div>
+					<h6 class='center'>Programming Languages</h6> 
+				</div> -->
+				<div class='col-xs-24'>
+					<div class='row skill' id='python'>
+						<div class='col-xs-4 flexbox-container'>
+							<img src="img/about/skill-03.png" width="36px" class="tooltip" title="Python">
+						</div>
+						<div class='col-xs-12 col-sm-14 col-md-16 level'>
+					
+							<img src="img/about/skills_sm-4.png" class='level'>
+						</div>
+					</div>
+					<div class='row skill' id='js'>
+						<div class='col-xs-4 flexbox-container'>
+							<img src="img/about/skill-07.png" width="36px" class="tooltip" title="javascript">
+						</div>
+						<div class='col-xs-12 col-sm-14 col-md-16 level'>
+						
+							<img src="img/about/skills_sm-5.png" class='level'>
+
+						</div>
+					</div>
+					<div class='row skill'  id='ruby'>
+						<div class='col-xs-4 flexbox-container'>
+							<img src="img/about/skills-12.png" width="36px" class="tooltip" title="Ruby">
+						</div>
+						<div class='col-xs-12 col-sm-14 col-md-16 level'>
+							<img src="img/about/skills_sm-2.png" class='level'>
+						</div>
+					</div>
+					<div class='row skill' id='c++'>
+						<div class='col-xs-4 flexbox-container'>
+							<img src="img/about/skills-13.png" width="36px" class="tooltip" title="C++">
+						</div>
+						<div class='col-xs-12 col-sm-14 col-md-16 level'>
+							<img src="img/about/skills_sm-2.png" class='level'>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class='col-xs-24 col-sm-11 skills' id='sk2'>
+				<!-- <div>
+					<h6 class='center'>Software</h6>
+				</div> -->
+				<div class='col-xs-24'>
+					<div class='row skill' id='illustrator'>
+						<div class='col-xs-4 flexbox-container'>
+							<img src="img/about/skill-11.png" width="36px" class="tooltip" title="Adobe Illustrator">
+						</div>
+						<div class='col-xs-12 col-sm-14 col-md-16 level'>
+							<img src="img/about/skills_sm-5.png" class='level'>
+						</div>
+					</div>
+					<div class='row skill' id='indesign'>
+						<div class='col-xs-4 flexbox-container'>
+							<img src="img/about/skill-10.png" width="36px" class="tooltip" title="Adobe InDesign">
+						</div>
+						<div class='col-xs-12 col-sm-14 col-md-16 level'>
+							<img src="img/about/skills_sm-5.png" class='level'>
+						</div>
+					</div>
+					<div class='row skill' id='photoshop'>
+						<div class='col-xs-4 flexbox-container'>
+							<img src="img/about/skill-09.png" width="36px" class="tooltip" title="Adobe Photoshop">
+						</div>
+						<div class='col-xs-12 col-sm-14 col-md-16 level'>
+							<img src="img/about/skills_sm-4.png" class='level'>
+						</div>
+					</div>
+					<div class='row skill' id='premiere'>
+						<div class='col-xs-4 flexbox-container'>
+							<img src="img/about/skill-12.png" width="36px" class="tooltip" title="Adobe Premiere Pro">
+						</div>
+						<div class='col-xs-12 col-sm-14 col-md-16 level'>
+							<img src="img/about/skills_sm-3.png" class='level'>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	<!-- PL 2 -->
+	<div class="container content visible-xs reveal" >
+		<div class='col-xs-24 col-sm-12 skills' id=''>
+			<h6 class='center'>Programming Languages</h6>
+
+					<div class='row skill' id='python'>
+						<div class='col-xs-4 flexbox-container'>
+							<img src="img/about/skill-03.png" width="36px" class="tooltip" title="Python">
+						</div>
+						<div class='col-xs-12 col-sm-14 col-md-16 level'>
+							<img src="img/about/skills_sm-4.png" class='level'>
+						</div>
+					</div>
+					<div class='row skill' id='js'>
+						<div class='col-xs-4 flexbox-container'>
+							<img src="img/about/skill-07.png" width="36px" class="tooltip" title="javascript">
+						</div>
+						<div class='col-xs-12 col-sm-14 col-md-16 level'>
+							<img src="img/about/skills_sm-5.png" class='level'>
+						</div>
+					</div>
+					<div class='row skill'  id='ruby'>
+						<div class='col-xs-4 flexbox-container'>
+							<img src="img/about/skills-12.png" width="36px" class="tooltip" title="Ruby">
+						</div>
+						<div class='col-xs-12 col-sm-14 col-md-16 level'>
+
+							<img src="img/about/skills_sm-2.png" class='level'>
+
+						</div>
+					</div>
+					<div class='row skill' id='c++'>
+						<div class='col-xs-4 flexbox-container'>
+							<img src="img/about/skills-13.png" width="36px" class="tooltip" title="C++">
+						</div>
+						<div class='col-xs-12 col-sm-14 col-md-16 level'>
+														
+							<img src="img/about/skills_sm-2.png" class='level'>
+
+						</div>
+					</div>
+				</div>
+	</div>
+	
+	<!-- SW 2 -->
+	<div class='container contrast content visible-xs reveal'>
+		<div class='col-xs-24 col-sm-12 skills' id=''>
+			<h6 class='center'>Software</h6>
+					<div class='row skill' id='illustrator'>
+						<div class='col-xs-4 flexbox-container'>
+							<img src="img/about/skill-11.png" width="36px" class="tooltip" title="Adobe Illustrator">
+						</div>
+						<div class='col-xs-12 col-sm-14 col-md-16 level'>
+							<img src="img/about/skills_dark_sm-5.png" class='level'>
+
+						</div>
+					</div>
+					<div class='row skill' id='indesign'>
+						<div class='col-xs-4 flexbox-container'>
+							<img src="img/about/skill-10.png" width="36px" class="tooltip" title="Adobe InDesign">
+						</div>
+						<div class='col-xs-12 col-sm-14 col-md-16 level'>
+							
+							<img src="img/about/skills_dark_sm-5.png" class='level'>
+
+						</div>
+					</div>
+					<div class='row skill' id='photoshop'>
+						<div class='col-xs-4 flexbox-container'>
+							<img src="img/about/skill-09.png" width="36px" class="tooltip" title="Adobe Photoshop">
+						</div>
+						<div class='col-xs-12 col-sm-14 col-md-16 level'>
+							
+							<img src="img/about/skills_dark_sm-4.png" class='level'>
+
+						</div>
+					</div>
+					<div class='row skill' id='premiere'>
+						<div class='col-xs-4 flexbox-container'>
+							<img src="img/about/skill-12.png" width="36px" class="tooltip" title="Adobe Premiere Pro">
+						</div>
+						<div class='col-xs-12 col-sm-14 col-md-16 level'>
+							
+							<img src="img/about/skills_dark_sm-3.png" class='level'>
+
+						</div>
+					</div>
+	
+		</div>
+	</div>
+	<!-- WT -->
+	<div class='container content reveal'>
+		<div class='col-xs-24 col-sm-22 col-sm-offset-1 skills'>
+			<h6 class='center'>Web Technologies</h6>
+
+			<div class='col-xs-24 col-sm-12'>
+
+				<div class='row skill' id='angular'>
+					<div class='col-xs-4 flexbox-container'>
+						<img src="img/about/skill-04.png" width="36px" class="tooltip" title="AngularJS">
+					</div>
+					<div class='col-xs-12 col-sm-14 col-md-16 level'>
+						
+							<img src="img/about/skills_sm-3.png" class='level'>
+					</div>
+				</div>
+				<div class='row skill' id='html'>
+					<div class='col-xs-4 flexbox-container'>
+						<img src="img/about/skill-05.png" width="36px" class="tooltip" title="HTML5">
+					</div>
+					<div class='col-xs-12 col-sm-14 col-md-16 level'>
+						
+							<img src="img/about/skills_sm-5.png" class='level'>
+
+					</div>
+				</div>
+				<div class='row skill' id='css'>
+					<div class='col-xs-4 flexbox-container'>
+						<img src="img/about/skill-06.png" width="36px" class="tooltip" title="CSS3">
+					</div>
+					<div class='col-xs-12 col-sm-14 col-md-16 level'>
+				
+							<img src="img/about/skills_sm-5.png" class='level'>
+
+					</div>
+				</div>
+
+				<div class='row skill' id='flask'>
+					<div class='col-xs-4 flexbox-container'>
+						<img src="img/about/skill-08.png" width="36px" class="tooltip" title="Flask">
+					</div>
+					<div class='col-xs-12 col-sm-14 col-md-16 level'>
+						
+							<img src="img/about/skills_sm-2.png" class='level'>
+
+					</div>
+				</div>
+			</div>
+			<div class='col-xs-24 col-sm-12'>
+
+				<div class='row skill' id='bootstrap'>
+					<div class='col-xs-4 flexbox-container'>
+						<!-- <div class="tooltip">AngularJS</div> -->
+						<img src="img/about/skills-14.png" width="36px" class="tooltip" title="Bootstrap">
+					</div>
+					<div class='col-xs-12 col-sm-14 col-md-16 level'>
+						<img src="img/about/skills_sm-4.png" class='level'>
+					</div>
+				</div>
+				<div class='row skill' id='mongo'>
+					<div class='col-xs-4 flexbox-container'>
+						<img src="img/about/skills-15.png" width="36px" class="tooltip" title="MongoDB">
+					</div>
+					<div class='col-xs-12 col-sm-14 col-md-16 level'>
+						<img src="img/about/skills_sm-3.png" class='level'>
+					</div>
+				</div>
+				<div class='row skill' id='rails'>
+					<div class='col-xs-4 flexbox-container'>
+						<img src="img/about/skills-16.png" width="36px" class="tooltip" title="Ruby on Rails">
+					</div>
+					<div class='col-xs-12 col-sm-14 col-md-16 level'>
+						<img src="img/about/skills_sm-2.png" class='level'>
+					</div>
+				</div>
+
+				<div class='row skill' id='node'>
+					<div class='col-xs-4 flexbox-container'>
+						<img src="img/about/skill-17.png" width="36px" class="tooltip" title="Node.js">
+					</div>
+					<div class='col-xs-12 col-sm-14 col-md-16 level'>
+						<img src="img/about/skills_sm-3.png" class='level'>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+{% endblock %}
+
+{% block js %}
+<script type="text/javascript">
+	window.sr = ScrollReveal();
+	// sr.reveal('#work-img');
+	sr.reveal('.reveal');
+	</script>
+{% endblock %}

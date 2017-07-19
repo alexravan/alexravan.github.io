@@ -1,0 +1,57 @@
+<!-- work.nunjucks -->
+
+{% extends "layout.nunjucks" %}
+{% set page_title = "Portfolio" %}
+{% set body_class = "work" %}
+
+{% block content %}
+<div class='container-fluid contrast test header' >
+	<img src="img/headers/header-01.png">
+</div>
+
+
+<div class='container gallery content'>
+<!-- Design & Development-->
+
+	<div class='col-xs-12 col-md-8'>
+		<img src="img/work/tile-03.png">
+	</div>
+	<div class='col-xs-12 col-md-8'>
+		<a href="idikia.html"><img src="img/work/idikia/thumb.png"></a>
+	</div>
+	<div class='col-xs-12 col-md-8'>
+		<a href="cr.html"><img src="img/work/cr/thumb.png"></a>
+	</div>
+	<div class='col-xs-12 col-md-8'>
+		<a href="bevgrove.html"><img src="img/work/bevgrove/thumb.png"></a>
+	</div>
+	
+<!-- Design -->
+	<div class='col-xs-12 col-md-8'>
+		<img src="img/work/tile-01.png">
+	</div>
+	
+	<div class='col-xs-12 col-md-8'>
+		<a href="tim.html"><img src="img/work/tim/thumb.png"></a>
+	</div>
+	<div class='col-xs-12 col-md-8'>
+		<a href="vox.html"><img src="img/work/vox/thumb.png"></a>
+	</div>
+	<div class='col-xs-12 col-md-8'>
+		<a href="bjj.html"><img src="img/work/bjj/thumb.png"></a>
+	</div>
+	<div class='col-xs-12 col-md-8'>
+		<a href="bungalow.html"><img src="img/work/bungalow/thumb.png"></a>
+	</div>
+<!-- Development -->
+	<div class='col-xs-12 col-md-8'>
+		<img src="img/work/tile-02.png">
+	</div>
+	<div class='col-xs-12 col-md-8'>
+		<a href="suechef.html"><img src="img/work/suechef/thumb.png"></a>
+	</div>
+	<div class='col-xs-12 col-md-8'>
+		<a href="https://github.com/alexravan/maxent-grader"><img src="img/work/nlp/thumb.png"></a>
+	</div>
+</div>
+{% endblock %}

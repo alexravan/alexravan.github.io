@@ -1,0 +1,176 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+{% set page_title = "Alexander Ravan" %}
+
+{% block content %}
+<div class='container full' id='home-full'>
+	<!-- blah -->
+</div>
+
+<div class='container'>
+	<div class='col-xs-24 content col-lg-20 col-lg-offset-2'>
+		<h1> <span class='fancy'> Designer &amp; Developer</span></h1>
+		<span class='blah'></span>
+		<h7>Hi, I'm Alex. I'm a designer and developer specilizing in front-end development, brand identity, web design, UI and UX. I'm a Los Angeles native and currently a senior at Tufts University in the School of Arts and Sciences. I expect to graduate in May 2017 with a Bachelor of Science in Computer Science and a minor in Entrepreneurial Leadership.</h7>
+
+	</div>
+	
+</div>
+
+
+</div>
+</div>
+<!-- <div class='container contrast'>
+	<div class='container'>
+		<div class='col-xs-24 content '>
+			<h6 class='center'>Work</h6> 
+			<div class='frow fwrap' id='work-img'>
+				<div class='col-xs-20 col-md-10 grid4 fcol'>
+					<div class='col-xs-12'> 
+						<img class='top' src="img/home/cr.jpg" >
+						<img id='' src="img/home/bjj.jpg">
+					</div>
+					<div class='col-xs-12'>
+						<img class='top' src="img/home/tim.jpg">
+						<img id='work-vox' src="img/home/vox.jpg">
+					</div>
+				</div>
+				<div class='col-xs-20 col-sm-14 col-md-10 col-md-offset-2 fcol' style="padding-top: 20px">
+					<p class='center ' id=''>View some selected works in my portfolio. Projects include work with a women's clothing line, a jewlery company, mobile app design and development.</p>
+					<a href="work.html"><h5 class='pull-right'>View Portfolio <i class="fa fa-arrow-right" aria-hidden="true"></i>
+					</h5></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> -->
+<div class='container contrast'>
+	<div class='container'>
+		<div class='col-xs-24 content '>
+			<h6 class='center'>Work</h6>
+			<div class='frow fwrap' id='work-img'>
+
+				<div class='col-xs-9 col-md-6'>
+					<ul class="cs-grid cs-style-3">
+						<li>
+							<figure>
+								<img src="img/home/vox.jpg" >
+								<figcaption class='frow fwrap'>
+									<div class='fcol'>
+										<div class='frow'>
+											<h3>Collections</h3>
+										</div>
+										<div class='frow'>
+											<h5 class='pull-right'><a href="vox.html">View</a></h5>
+										</div>
+									</div>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/home/cr.jpg" alt="img01">
+								<div class='frow frwap'>
+									<figcaption class='frow'>
+										<div class='fcol'>
+											<div class='frow'>
+												<h3 class='center'>Circus Royalty</h3>
+											</div>
+											<div class='frow'>
+												<h5 class='pull-right'><a href="cr.html">View</a></h5>
+											</div>
+										</div>
+									</figcaption>
+								</div>
+							</figure>
+						</li>
+					</ul>
+
+				</div>
+				<div class='col-xs-9 col-md-6'>
+					<ul class="cs-grid cs-style-3">
+						<li>
+							<figure>
+								<img src="img/home/tim.jpg" alt="img01">
+								<figcaption class='frow fwrap'>
+									<div class='fcol'>
+										<div class='frow'>
+											<h3>TIM</h3>
+										</div>
+										<div class='frow'>
+											<h5 class='pull-right'><a href="tim.html">View</a></h5>
+										</div>
+									</div>
+								</figcaption>
+							</figure>
+						</li>
+						<li>
+							<figure>
+								<img src="img/home/bjj.jpg" alt="img01">
+								<figcaption class='frow fwrap'>
+									<div class='fcol'>
+										<div class='frow'>
+											<h3>Bettina Javaheri Joallierie</h3>
+										</div>
+										<div class='frow'>
+											<h5 class='pull-right'><a href="bjj.html">View</a></h5>
+										</div>
+									</div>
+								</figcaption>
+							</figure>
+						</li>
+					</ul>
+
+				</div>
+				<div class='col-xs-20 col-sm-14 col-md-10 col-md-offset-2 fcol' style="padding-top: 20px">
+					<p class='center ' id=''>View some selected works in my portfolio. Projects include work with a women's clothing line, a jewlery company, mobile app design and development.</p>
+					<a href="work.html"><h5 class='pull-right'>View Portfolio <i class="fa fa-arrow-right" aria-hidden="true"></i>
+					</h5></a>
+				</div>
+			</div>
+
+			
+		</div>
+	</div>
+
+</div>
+<div class='container '>
+		<div class='col-xs-24 content'>
+			<h6 class='center'>GitHub</h6> 
+			<div class='frow fwrap' id='git'>
+				<div class='class="col-xs-24 col-sm-13 col-md-12 fcol'>
+					<pre class="prettyprint lang-python">
+def bag_of_bigrams(data, bigram_vocab_size, bigram_vocabulary):
+    table = np.zeros((len(data), bigram_vocab_size))
+    bigram_list = list(bigram_vocabulary)
+    bigram_index_dict = dict()
+    
+    for k in range(len(bigram_list)):
+        bigram = bigram_list[k]
+        bigram_index_dict[bigram] = k
+
+    for i in range(len(data)):
+        essay = data[i]
+        for j in range(1,len(essay)):
+            try:
+	.</pre>
+				</div>
+				<div class='col-xs-20 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-2 fcol' style='padding-bottom: 40px;'>
+						<p class='center ' id=''>Visit my GitHub to see some of my past development projects. These projects include an Essay Grade Predictor, an Android Cooking Assistant app, a RISC-style CPU emulator.</p>
+						<a href="https://GitHub.com/alexravan?tab=repositories"><h5 class='pull-right'>Visit GitHub <i class="fa fa-arrow-right" aria-hidden="true"></i>
+						</h5></a>
+				</div>
+			</div>
+		</div>
+</div>
+
+
+{% endblock %}
+
+{% block js %}
+<script type="text/javascript">
+	window.sr = ScrollReveal();
+	sr.reveal('#work-img');
+	sr.reveal('#git');
+	</script>
+{% endblock %}

@@ -1,0 +1,55 @@
+<!-- suechef.nunjuck -->
+{% extends "layout.nunjucks" %}
+{% set page_title = "Sue Chef" %}
+{% set body_class = "project" %}
+
+{% block content %}
+<div class='container full' id=''>
+	<img src="http://assets.epicurious.com/photos/584abfa6024ba92504957ccc/6:4/w_996%2Ch_664%2Cc_limit/roasted-quinoa-and-tomato-soup-hc-120816.jpg" id='cover'>
+</div>
+
+<div class='container content'>
+	<div class='row'>
+		<div class='col-xs-20 col-xs-offset-2 col-sm-offset-0 col-sm-24'>
+			<h2>Sue Chef</h2>
+
+			<p>Sue Chef is a voice-activated cooking assitant app for Android.</p>
+			
+			<p>Are your hands sticky from kneading pizza dough? No need to touch your phone, just tell Sue what you need to know. Say "Okay, Sue Chef" and tell her to move onto the next recipe step, go back, or repeat. She'll read the step aloud so that you can concentrate on cooking. Recipes are scraped from <a href="http://www.epicurious.com">Epicurious</a>.</p>
+			<p>
+				<ul>
+					<li>Java</li>
+					<li>Android JDK</li>
+					<li>Flask</li>
+					<li>MongoDB</li>
+					<li>Piccaso</li>
+					<li>CMUSphinx</li>
+					<li>API.AI</li>
+
+
+				</ul>
+
+				<a href="https://play.google.com/store/apps/details?id=com.vincenttran.suechef" target="_blank"><h5 class='pull-right'>View in Google Play <i class="fa fa-arrow-right" aria-hidden="true"></i>
+				</h5></a>
+
+			</div>
+		</div>
+		<div class='gallery'>
+			<div class='col-xs-12 col-md-10 col-md-offset-2'>
+				<img src="img/work/suechef/1.png">
+			</div>
+
+			<div class='col-xs-12 col-md-10 '>
+				<img src="img/work/suechef/2.png">
+			</div>
+
+			<div class='col-xs-12 col-md-10 col-md-offset-2'>
+				<img src="img/work/suechef/3.png">
+			</div>
+			<div class='col-xs-12 col-md-10 '>
+				<img src="img/work/suechef/4.png">
+			</div>
+		</div>
+	</div> 
+</div>
+{% endblock %}

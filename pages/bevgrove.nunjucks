@@ -1,0 +1,68 @@
+<!-- bevgrove.nunjuck -->
+{% extends "layout.nunjucks" %}
+{% set page_title = "Beverly Grove" %}
+{% set body_class = "project" %}
+
+{% block content %}
+<div class='container full' id='bevgrove-cover'>
+	<img src="../img/work/bevgrove/cover.jpg" id='cover'>
+</div>
+
+<div class='container content'>
+	<div class='row'>
+		<div class='col-xs-20 col-xs-offset-2 col-sm-offset-0 col-sm-24'>
+
+			<h2>Beverly Grove</h2>
+
+			<p>Beverly Grove is a small neighborhood in the central region of the City of Los Angeles, California, abutting Beverly Hills and West Hollywood. 
+			</p>
+			<p>
+				This site was developed as a promotional tool for a Los Angeles-based commercial real estate firm wishing to highlight their properties in the Beverly Grove district. </p>
+				<ul>
+					<li>Node.js</li>
+					<li>Google Maps API</li>
+					<li>MongoDB</li>
+					<li>Bootstrap</li>
+				</ul>
+
+				<a href="http://bevgrove.herokuapp.com/" target="_blank"><h5 class='pull-right'>visit site <i class="fa fa-arrow-right" aria-hidden="true"></i>
+				</h5></a>
+
+			</div>
+		</div>
+		<div class='gallery'>
+			<div class='col-xs-24 col-md-20 col-md-offset-2'>
+				<img src="../img/work/bevgrove/bev.png">
+			</div>
+		</div>
+	</div> 
+
+</div>
+{% endblock %}
+
+
+
+
+{% block js %}
+<script type="text/javascript">
+      console.log('dood')
+      function resize(){
+        windowWidth = $(window).width()
+
+          if ( windowWidth < 800 ){
+            $('#cover').attr('src', '../img/work/bevgrove/cover.jpg');
+          }
+          else if (windowWidth >= 800 && windowWidth < 1200) {
+            $('#cover').attr('src', '../img/work/bevgrove/cover-03.jpg');
+          }
+          else if (windowWidth >= 1200) {
+            $('#cover').attr('src', '../img/work/bevgrove/cover-02.jpg');
+          }
+      }
+      resize();
+      $(window).on('resize', resize);
+
+
+    </script>
+{% endblock %}
+

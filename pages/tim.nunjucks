@@ -1,0 +1,131 @@
+<!-- tim.nunjuck -->
+{% extends "layout.nunjucks" %}
+{% set page_title = "TIM" %}
+{% set body_class = "project" %}
+
+{% block content %}
+</div>
+      <div class='container full'>
+      <img id='cover' src="img/work/tim/cover.jpg">
+    </div>
+ 
+    <div class='container content'>
+      <div class='row'>
+        <div class='col-xs-20 col-xs-offset-2 col-sm-offset-0 col-sm-24'>
+          <h2 >TIM</h2>
+
+          <p>
+            TIM is a commercial real estate app concept. 
+            It's goal is to help businesses find the best property through digital broker services. The scope of this project includes:</p>
+            <ul>
+              <li>UX/UI</li>
+              <li>Brand Development</li>
+            </ul>
+          </div>
+        </div>
+        
+  </div>
+  <div class="contrast">
+    <div class='container content'>
+      <div class='col-xs-24 row'>
+       <h6 class='center'>Account Creation &amp; Search </h6>
+       <div class='col-xs-12 col-md-8 col-md-offset-4'>
+        <img src="img/work/tim/tim-01.png">
+      </div>
+      <div class='col-xs-12 col-md-8'>
+        <img src="img/work/tim/tim-02.png">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container hidden-md hidden-lg hidden-xl">
+  <div class='content col-xs-24 row'>
+    <h6 class='center'>Search Results</h6>
+    <div class='frow fwrap'>
+      <div class='col-xs-20  col-md-8 '>
+        <img src="img/work/tim/tim-03.png">
+      </div>
+      <div class="col-xs-24">
+        <br/>
+      </div>
+        <div class='col-xs-10 col-md-8'>
+          <img src="img/work/tim/tim-04.png">
+        </div>
+        <div class='col-xs-10 col-md-8'> 
+          <img src="img/work/tim/tim-05.png">
+        </div>
+    
+    </div>
+  </div>
+</div>
+<div class="container hidden-sm hidden-xs">
+  <div class='content col-xs-24 row'>
+    <h6 class='center'>Search Results</h6>
+    <div class='frow'>
+      <div class='col-md-8 fcol'>
+        <img src="img/work/tim/tim-03.png">
+      </div>
+     
+        <div class='fcol col-md-8'>
+          <img src="img/work/tim/tim-04.png">
+        </div>
+        <div class='fcol col-md-8'> 
+          <img src="img/work/tim/tim-05.png">
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="contrast">
+  <div class='container content'>
+    <div class='col-xs-24 row'>
+      <h6 class='center'>Broker Contact</h6>
+      <div class='frow fwrap'>
+        <div class='fcol col-xs-12 col-md-8 '>
+          <img src="img/work/tim/tim-06.png">
+        </div>
+        <div class='fcol col-xs-18 col-sm-10 col-sm-offset-2'>
+          <p class='description'>Quickly and easily get in contact with your TIM Broker within the app. With just a tap you can text, call, or email your agent as well as see pending transactions. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container content">
+  <div class='col-xs-24 row'>
+    <h6 class='center'>Web Search &amp; Results</h6>
+    <div class='row col-xs-22 col-xs-offset-1'>
+      <img src="img/work/tim/web-01.png">
+    </div>
+    <div class='row col-xs-22 col-xs-offset-1'>
+      <img src="img/work/tim/web-02.png">
+    </div>
+  </div>
+</div>
+
+
+
+{% endblock %}
+
+{% block js %}
+ <script type="text/javascript">
+      function resize(){
+        windowWidth = $(window).width()
+
+          if ( windowWidth < 800 ){
+            $('#cover').attr('src', '../img/work/tim/cover-01.png');
+          }
+          else if (windowWidth >= 800 && windowWidth < 1200) {
+            $('#cover').attr('src', '../img/work/tim/cover-02.png');
+          }
+          else if (windowWidth >= 1200) {
+            $('#cover').attr('src', '../img/work/tim/cover-03.png');
+          }
+      }
+
+      resize();
+      $(window).on('resize', resize);
+  
+    </script>
+{% endblock %}

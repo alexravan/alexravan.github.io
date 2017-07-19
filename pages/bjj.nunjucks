@@ -1,0 +1,63 @@
+<!-- bjj.nunjuck -->
+{% extends "layout.nunjucks" %}
+{% set page_title = "Bettina Javaheri Joaillerie" %}
+{% set body_class = "project" %}
+
+{% block content %}
+<div class='container full'>
+	<img src="img/work/bjj/cover.jpg">
+</div>
+
+<div class='container content'>
+	<div class='row'>
+		<div class='col-xs-20 col-xs-offset-2 col-sm-offset-0 col-sm-24'>
+
+			<h2>Bettina Javaheri Joaillerie</h2>
+
+			<p>
+				Bettina Javaheri Joaillerie is a Los Angeles based jewelry line. The scope of this project includes:</p>
+				<ul>
+					<li>Catalogue Design</li>
+					<li>Product Photography</li>
+				</ul>
+
+
+
+			</div>
+		</div>
+		<div class='gallery row'>
+			<div class='col-xs-24 col-lg-12 '>
+				<img src="img/work/bjj/bjj_1.jpg">
+			</div>
+			<div class='col-xs-24 col-lg-12 '>
+				<img src="img/work/bjj/bjj_2.jpg">
+			</div>
+			<div class='col-xs-24 col-lg-12 '>
+				<img src="img/work/bjj/bjj_3.jpg">
+			</div>
+			<div class='col-xs-24 col-lg-12 '>
+				<img src="img/work/bjj/bjj_4.jpg">
+			</div>
+
+			<div class='col-xs-12 col-lg-8'>
+				<img src="img/work/bjj/bjj_5.jpg">
+			</div>
+
+			<div class='col-xs-12 col-lg-8'>
+				<img src="img/work/bjj/bjj_6.jpg">
+			</div>
+			<div class='col-xs-12 col-lg-8'>
+				<img src="img/work/bjj/bjj_7.jpg">
+			</div>
+			<div class='col-xs-12 col-lg-8'>
+				<img src="img/work/bjj/bjj_8.jpg">
+			</div>
+			<div class='col-xs-12 col-lg-8'>
+				<img src="img/work/bjj/bjj_9.jpg">
+			</div>
+			<div class='col-xs-12 col-lg-8'>
+				<img src="img/work/bjj/bjj_10.jpg">
+			</div>
+		</div>
+	</div>
+{% endblock %}

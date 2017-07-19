@@ -1,0 +1,154 @@
+<!-- idikia.nunjuck -->
+{% extends "layout.nunjucks" %}
+{% set page_title = "idikia" %}
+{% set body_class = "project" %}
+
+{% block content %}
+<div class='container full'>
+      <img id='cover' src="img/work/idikia/cover-01.jpg">
+</div>
+
+<div class='container content'>
+	<div class='row'>
+		<div class='col-xs-20 col-xs-offset-2 col-sm-offset-0 col-sm-24'>
+			<h2>idikia</h2>
+
+			<p>
+				During my internship at <a href="http://www.cogolabs.com">Cogo Labs</a>, along with 4 other interns, I worked on idikia.
+				idikia is a politically-themed news and entertainment platform, similar to Buzzfeed. It includes a political search engine, trending articles, videos with Natural Language analysis, quizzes, listicles, and a game. It was developed with:</p>
+				<ul>
+					<li>AngularJS</li>
+					<li>Flask &amp; Python</li>
+					<li>MySQL</li>
+					<li>C3.js</li>
+					<li>Bootstrap</li>
+				</ul>
+
+		<!-- 		<a href="http://www.idikia.com/"><h5 class='pull-right'>visit site <i class="fa fa-arrow-right" aria-hidden="true"></i>
+				</h5></a>
+ -->
+			</div>
+		</div>
+	</div> 
+
+	<div class='contrast'>
+
+		<div class='container content'>
+			<h6 class='center'>Video Analysis</h6>
+
+			<div class='frow'>
+				<div class='col-xs-20  col-sm-11 col-md-9 fcol'>
+					<img src="img/work/idikia/glance.png">
+				</div>
+
+				<div class='fcol col-xs-20 col-xs-offset-2 col-sm-11 col-sm-offset-1 col-md-9 col-md-offset-2'>
+					<p class='description small'>To use idikia's proprietary video analysis feature, all you need is a link to a YouTube video that features closed captioning. Just copy the link, paste it in the idikia search bar, and hit Search.</p>
+				</div>
+			</div>
+			
+
+			<div class='frow'>
+				<div class='col-xs-20  col-sm-11  col-md-9   fcol'>
+				<p class='description small'>
+					The natural language processing algorithm will then reveal some interesting facts and figures about the video. These inlcude the most used words in the video, repeated one-, two-, three-, and four-word phrases, lexical diversity, as well as common bi- and tri-grams.
+				</p>
+				
+				</div>
+				<div class='fcol col-xs-20 col-xs-offset-2 col-sm-11 col-sm-offset-1 col-md-9 col-md-offset-2'>
+					<img src="img/work/idikia/word_analysis.png">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container content section">
+		<h6 class='center'>Quizzes</h6>
+
+		<div class='frow'>
+			<div class='fcol col-xs-20  col-sm-11  col-md-9'>
+				<img src="img/work/idikia/quiz_home.gif">
+			</div>
+
+			<div class='fcol col-xs-20 col-xs-offset-2 col-sm-11 col-sm-offset-1 col-md-9 col-md-offset-2'>
+				<p class='description small'>
+					The quizzes featured on idikia were done in the style of Buzzfeed and ClickHole. Through a series of questions, users were able to get the results of quizzes such as “Which party do your views align with?” or “Which historical US president are you most like?” 
+				</p>
+
+			</div>
+		</div>
+		<div class='frow'>
+
+			<div class='fcol col-xs-20 col-sm-11 col-md-9'>
+				<p class='description small'>
+					The quiz module was built entirely from scratch using Angular. It was also one of the most popular features that received lots of reengagment from our users. 
+				</p>
+
+			</div>
+			<div class='fcol col-xs-20 col-xs-offset-2 col-sm-11 col-sm-offset-1 col-md-9 col-md-offset-2'>
+				<img class='center' src="img/work/idikia/quiz_cand.gif">
+			</div>
+
+		</div>
+	</div>
+
+
+	<div class="contrast">
+		<div class='container content '>
+			<h6 class='center'>Email Campaigns</h6>
+			<div class='col-xs-12 col-md-8 col-md-offset-4'>
+				<img src="img/work/idikia/candidates.gif">
+
+			</div>
+			<div class='col-xs-12 col-md-8 '>
+				<img src="img/work/idikia/trump.png">
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class='container content section'>
+		<h6 class='center'>Twitter Buzz</h6>
+		<div class='frow fwrap'>
+			<div class='fcol col-xs-24 col-sm-24 col-md-9 '>
+
+				<blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/idikiapolitics">@idikiapolitics</a> - make a trump one - collecting purple hearts <a href="https://twitter.com/hashtag/ImWithHer?src=hash">#ImWithHer</a></p>&mdash; Rosie (@Rosie) <a href="https://twitter.com/Rosie/status/762053240217141248">August 6, 2016</a></blockquote>
+				<script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+
+			<div class='fcol col-xs-24 col-sm-20 col-md-9 col-md-offset-2'>
+				<p class='description small'>
+				idikia features a simple runner game where you can play either as Hillary Clinton and collect e-mails while avoiding Donald Trump's hands or play as Trump and collect bricks while avoiding Rosie O'Donnell.
+				</p>
+				<p class='description small'>
+				In an effort to drive traffic to the site, our team tweeted at various celebrities and comedians, including Rosie O'Donnell. She even retweeted the game and gave us the idea for Trump to also collect Purple Hearts for a boost in the game.
+				</p>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!-- </div> -->
+
+{% endblock %}
+
+{% block js %}
+    <script type="text/javascript">
+    	function resize(){
+        windowWidth = $(window).width()
+
+          if ( windowWidth < 800 ){
+            $('#cover').attr('src', 'img/work/idikia/cover-01.jpg');
+          }
+          else if (windowWidth >= 800 && windowWidth < 1200) {
+            $('#cover').attr('src', 'img/work/idikia/cover-02.jpg');
+          }
+          else if (windowWidth >= 1200) {
+            $('#cover').attr('src', 'img/work/idikia/cover-03.jpg');
+          }
+      }
+
+      resize();
+      $(window).on('resize', resize);
+
+    </script>
+{% endblock %}

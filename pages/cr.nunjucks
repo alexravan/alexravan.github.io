@@ -1,0 +1,141 @@
+<!-- cr.nunjuck -->
+{% extends "layout.nunjucks" %}
+{% set page_title = "Circus Royalty" %}
+{% set body_class = "project" %}
+
+{% block content %}
+<div class='container full'>
+<img id='cover' src="img/work/cr/cover-01.jpg">
+</div>
+
+<div class='container content'>
+	<div class='row'>
+		<div class='col-xs-20 col-xs-offset-2 col-sm-offset-0 col-sm-24'>
+			<h2 >Circus Royalty</h2>
+
+			<p>
+				Circus Royalty is a Los Angeles based women's contemporary clothing collection established in 2015. The scope of this project includes:</p>
+				<ul>
+					<li>Brand Development</li>
+					<li>Custom Shopify Store</li>
+					<li>Web &amp; Email Marketing</li>
+					<li>Campaign &amp; E-commerce Photography</li>
+					<li>Print Collateral</li>
+				</ul>
+
+				<a href="http://www.circusroyalty.com"><h5 class='pull-right'>visit site <i class="fa fa-arrow-right" aria-hidden="true"></i>
+				</h5></a>
+
+			</div>
+		</div>
+</div>
+<div class='container contrast'>
+	<div class='container'>
+		<div class='col-xs-24 content '>
+			<h6 class='center'>Shopify Site</h6>
+
+		<div class='row'> <img src="img/work/cr/home.png"></div>
+		<div class='row'> <img src="img/work/cr/product.png"></div>
+		<div class='row'> <img src="img/work/cr/collection.png"></div>
+
+
+		</div>
+	</div>
+</div>
+<div class='container content'>
+	<div class='row'>
+		<div class='gallery'>
+			<div class='row'>
+				<div class='col-xs-12 '>
+					<img src="img/work/cr/8-1.jpg">
+				</div>
+				<div class='col-xs-12 '>
+					<img src="img/work/cr/8-2.jpg">
+				</div>
+			</div>
+			<div class='row'>
+				<div class='col-xs-12 '>
+					<img src="img/work/cr/CR9-9254.jpg">
+				</div>
+				<div class='col-xs-12'>
+					<img src="img/work/cr/2.jpg">
+				</div>
+			</div>
+
+				<div class='col-xs-12 col-md-8'>
+					<img src="img/work/cr/12.jpg">
+				</div>
+				<div class='col-xs-12 col-md-8'>
+					<img src="img/work/cr/13.jpg">
+				</div>
+
+				<div class='col-xs-12 col-md-8'>
+					<img src="img/work/cr/4.jpg">
+				</div>
+
+			<div class='col-xs-12 col-md-8'>
+				<img src="img/work/cr/CR9-8780.jpg">
+			</div>
+		<!-- 	<div class='col-xs-12 col-md-8 '>
+				<img src="img/work/cr/6.jpg">
+			</div>
+			<div class='col-xs-12 col-md-8 '>
+				<img src="img/work/cr/7.jpg">
+			</div>
+			 -->
+		</div>
+	</div>
+</div>
+	<div class="container-fluid contrast flex content">
+		<!-- <div class='flex'> -->
+		<h6 class='center'>Email Campaigns</h6>
+		<div class='col-xs-12 col-md-8 col-md-offset-4'>
+			<img src="img/work/cr/email-01.png">
+
+		</div>
+		<!-- <div class='col-xs-12 col-md-8 '>
+			<img src="img/work/cr/email-02.png">
+
+		</div>
+		<div class='col-xs-12 col-md-8 col-md-offset-4'>
+			<img src="img/work/cr/email-03.png">
+
+		</div> -->
+		<div class='col-xs-12 col-md-8 '>
+			<img src="img/work/cr/email-04.png">
+		</div>
+		<!-- </div> -->
+	</div>
+	<div class="container content">
+
+		<div class='col-xs-24 row'>
+			<h6 class='center'>Instagram Feed</h6>
+
+			<!-- LightWidget WIDGET --><script src="http://lightwidget.com/widgets/lightwidget.js"></script><iframe src="http://lightwidget.com/widgets/d1c231a20d2a5f6c80ce91cd9866f2f5.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+
+
+		</div>
+	</div>
+{% endblock %}
+
+{% block js %}
+    <script type="text/javascript">
+    	function resize(){
+        windowWidth = $(window).width()
+
+          if ( windowWidth < 800 ){
+            $('#cover').attr('src', '../img/work/cr/cover-01.jpg');
+          }
+          else if (windowWidth >= 800 && windowWidth < 1200) {
+            $('#cover').attr('src', '../img/work/cr/cover-02.jpg');
+          }
+          else if (windowWidth >= 1200) {
+            $('#cover').attr('src', '../img/work/cr/cover-03.jpg');
+          }
+      }
+
+      resize();
+      $(window).on('resize', resize);
+
+    </script>
+{% endblock %}

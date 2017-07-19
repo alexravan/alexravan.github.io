@@ -1,0 +1,32 @@
+<!-- bungalow.nunjuck -->
+{% extends "layout.nunjucks" %}
+{% set page_title = "Bungalow1A" %}
+{% set body_class = "project" %}
+
+{% block content %}
+<div class='container full'>
+	<img src="img/work/bungalow/cover.jpg">
+</div>
+
+<div class='container content'>
+	<div class='row'>
+		<div class='col-xs-20 col-xs-offset-2 col-sm-offset-0 col-sm-24'>
+			<h2 >Bungalow 1A</h2>
+
+			<p>
+				Bungalow 1a was a lifestyle and interior design blog and online shop. </p>
+				<ul>
+					<li>Logo Design</li>
+					<li>Branding &amp; Identity Design</li>
+					<li>Print Collateral</li>
+				</ul>
+
+		</div>
+	</div>
+	<div class='col-xs-24 col-md-20 col-md-offset-2'>
+			<img src="img/work/bungalow/1.png">
+	</div>
+		
+
+</div>
+{% endblock %}
