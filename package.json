@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "latest",
+    "mongodb": "latest",
+    "body-parser": "latest",
+    "validator": "latest",
+    "gulp": "latest"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nunjucks-render": "^2.0.0"
+  }
+}

@@ -1,8 +1,11 @@
-//  @include '/fonts/centuryschoolbook/_stylesheet.scss'
+@import '../fonts/ambroise/_stylesheet.scss';
+@import '../fonts/centuryschoolbook/_stylesheet.scss';
+@import '../fonts/proximanova/_stylesheet.scss';
+
 @import 'arrow.scss', 'colors.scss', 'fade.scss'; //'prettify.scss';
 $sans-serif:    "Proxima Nova", Helvetica, sans-serif;  
 $serif: 'Ambroise', "century_schoolbook";
-$serif-text: "century_schoolbook", "Garamond", "Georgia", serif;
+$serif-text: "Garamond", "century_schoolbook", "Georgia", serif;
 
 // $dark: #161110; //#1F1817;
 // $grey: #DFDFDC;
