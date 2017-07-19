@@ -19,8 +19,8 @@
   font-style: normal; }
 @font-face {
   font-family: 'Proxima Nova';
-  src: url("ProximaNova-Regular.eot");
-  src: url("ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("ProximaNova-Regular.woff") format("woff"), url("ProximaNova-Regular.ttf") format("truetype");
+  src: url("../fonts/proximanova/ProximaNova-Regular.eot");
+  src: url("../fonts/proximanova/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/proximanova/ProximaNova-Regular.woff") format("woff"), url("../fonts/proximanova/ProximaNova-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 .arrow .fa {
