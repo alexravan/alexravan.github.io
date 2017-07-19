@@ -8,10 +8,10 @@ var nunjucksRender = require('gulp-nunjucks-render');
 
 gulp.task('default', function() {
   // Gets .html and .nunjucks files in pages
-  return gulp.src('app/pages/**/*.+(html|nunjucks)')
+  return gulp.src('pages/**/*.+(html|nunjucks)')
   // Renders template with nunjucks
   .pipe(nunjucksRender({
-      path: ['app/templates']
+      path: ['templates']
     }))
   // output files in app folder
   .pipe(gulp.dest('app'))
