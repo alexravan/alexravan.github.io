@@ -96,7 +96,7 @@
 	<div class='container'>
 		<div class='col-xs-24 content '>
 			<h6 class='center'>Work</h6>
-			<div class='frow fwrap' id='work-img'>
+			<div class='frow fwrap reveal' id='work-img'>
 
 				<div class='col-xs-9 col-md-6'>
 					<ul class="cs-grid cs-style-3">
@@ -185,7 +185,7 @@
 <div class='container '>
 		<div class='col-xs-24 content'>
 			<h6 class='center'>GitHub</h6> 
-			<div class='frow fwrap' id='git'>
+			<div class='frow fwrap reveal' id='git'>
 				<div class='class="col-xs-24 col-sm-13 col-md-12 fcol'>
 					<pre class="prettyprint lang-python">
 def bag_of_bigrams(data, bigram_vocab_size, bigram_vocabulary):
@@ -252,11 +252,9 @@ def bag_of_bigrams(data, bigram_vocab_size, bigram_vocabulary):
 	
 <script type="text/javascript">
 	window.sr = ScrollReveal();
-	sr.reveal('#work-img');
-	sr.reveal('#git');
-	</script>
-
-
+	// sr.reveal('#work-img');
+	sr.reveal('.reveal');
+</script>
 	 <script type="text/javascript">
 		
 		$(document).ready(function(){

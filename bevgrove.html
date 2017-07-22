@@ -75,7 +75,7 @@
 	  <!-- You write code for this content block in another file -->
 	  
 <div class='container full' id='bevgrove-cover'>
-	<img src="../img/work/bevgrove/cover.jpg" id='cover'>
+	<img src="img/work/bevgrove/cover.jpg" id='cover'>
 </div>
 
 <div class='container content'>
@@ -102,7 +102,7 @@
 		</div>
 		<div class='gallery'>
 			<div class='col-xs-24 col-md-20 col-md-offset-2'>
-				<img src="../img/work/bevgrove/bev.png">
+				<img src="img/work/bevgrove/bev.png">
 			</div>
 		</div>
 	</div> 
@@ -151,13 +151,13 @@
         windowWidth = $(window).width()
 
           if ( windowWidth < 800 ){
-            $('#cover').attr('src', '../img/work/bevgrove/cover.jpg');
+            $('#cover').attr('src', 'img/work/bevgrove/cover.jpg');
           }
           else if (windowWidth >= 800 && windowWidth < 1200) {
-            $('#cover').attr('src', '../img/work/bevgrove/cover-03.jpg');
+            $('#cover').attr('src', 'img/work/bevgrove/cover-03.jpg');
           }
           else if (windowWidth >= 1200) {
-            $('#cover').attr('src', '../img/work/bevgrove/cover-02.jpg');
+            $('#cover').attr('src', 'img/work/bevgrove/cover-02.jpg');
           }
       }
       resize();
@@ -166,7 +166,11 @@
 
     </script>
 
-
+<script type="text/javascript">
+	window.sr = ScrollReveal();
+	// sr.reveal('#work-img');
+	sr.reveal('.reveal');
+</script>
 	 <script type="text/javascript">
 		
 		$(document).ready(function(){

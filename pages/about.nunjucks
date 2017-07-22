@@ -411,10 +411,3 @@
 	</div>
 {% endblock %}
 
-{% block js %}
-<script type="text/javascript">
-	window.sr = ScrollReveal();
-	// sr.reveal('#work-img');
-	sr.reveal('.reveal');
-	</script>
-{% endblock %}

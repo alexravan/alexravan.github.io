@@ -102,11 +102,11 @@
 <div class='container contrast'>
 	<div class='container'>
 		<div class='col-xs-24 content '>
-			<h6 class='center'>Shopify Site</h6>
+			<h6 class='center reveal'>Shopify Site</h6>
 
-		<div class='row'> <img src="img/work/cr/home.png"></div>
-		<div class='row'> <img src="img/work/cr/product.png"></div>
-		<div class='row'> <img src="img/work/cr/collection.png"></div>
+		<div class='row reveal'> <img src="img/work/cr/home.png"></div>
+		<div class='row reveal'> <img src="img/work/cr/product.png"></div>
+		<div class='row reveal'> <img src="img/work/cr/collection.png"></div>
 
 
 		</div>
@@ -114,8 +114,10 @@
 </div>
 <div class='container content'>
 	<div class='row'>
+			<h6 class='center reveal'>Campaign Photography</h6>
+
 		<div class='gallery'>
-			<div class='row'>
+			<div class='row reveal'>
 				<div class='col-xs-12 '>
 					<img src="img/work/cr/8-1.jpg">
 				</div>
@@ -123,7 +125,7 @@
 					<img src="img/work/cr/8-2.jpg">
 				</div>
 			</div>
-			<div class='row'>
+			<div class='row reveal'>
 				<div class='col-xs-12 '>
 					<img src="img/work/cr/CR9-9254.jpg">
 				</div>
@@ -131,7 +133,7 @@
 					<img src="img/work/cr/2.jpg">
 				</div>
 			</div>
-
+			<div class='row reveal'>
 				<div class='col-xs-12 col-md-8'>
 					<img src="img/work/cr/12.jpg">
 				</div>
@@ -142,17 +144,22 @@
 				<div class='col-xs-12 col-md-8'>
 					<img src="img/work/cr/4.jpg">
 				</div>
-
-			<div class='col-xs-12 col-md-8'>
-				<img src="img/work/cr/CR9-8780.jpg">
+				<div class='col-xs-12 col-md-8 visible-sm visible-xs'>
+					<img src="img/work/cr/CR9--6.jpg">
+				</div>
 			</div>
-		<!-- 	<div class='col-xs-12 col-md-8 '>
-				<img src="img/work/cr/6.jpg">
+			<div class='row reveal'>
+				<div class='col-xs-12 col-md-8'>
+					<img src="img/work/cr/CR9-8780.jpg">
+				</div>
+				<div class='col-xs-12 col-md-8 '>
+					<img src="img/work/cr/CR9-8745.jpg">
+				</div>
+				<div class='col-xs-12 col-md-8 hidden-sm hidden-xs'>
+					<img src="img/work/cr/CR9--6.jpg">
+				</div>
 			</div>
-			<div class='col-xs-12 col-md-8 '>
-				<img src="img/work/cr/7.jpg">
-			</div>
-			 -->
+				
 		</div>
 	</div>
 </div>
@@ -228,13 +235,13 @@
         windowWidth = $(window).width()
 
           if ( windowWidth < 800 ){
-            $('#cover').attr('src', '../img/work/cr/cover-01.jpg');
+            $('#cover').attr('src', 'img/work/cr/cover-01.jpg');
           }
           else if (windowWidth >= 800 && windowWidth < 1200) {
-            $('#cover').attr('src', '../img/work/cr/cover-02.jpg');
+            $('#cover').attr('src', 'img/work/cr/cover-02.jpg');
           }
           else if (windowWidth >= 1200) {
-            $('#cover').attr('src', '../img/work/cr/cover-03.jpg');
+            $('#cover').attr('src', 'img/work/cr/cover-03.jpg');
           }
       }
 
@@ -243,7 +250,11 @@
 
     </script>
 
-
+<script type="text/javascript">
+	window.sr = ScrollReveal();
+	// sr.reveal('#work-img');
+	sr.reveal('.reveal');
+</script>
 	 <script type="text/javascript">
 		
 		$(document).ready(function(){
