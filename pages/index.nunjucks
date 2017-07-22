@@ -11,7 +11,7 @@
 	<div class='col-xs-24 content col-lg-20 col-lg-offset-2'>
 		<h1> <span class='fancy'> Designer &amp; Developer</span></h1>
 		<span class='blah'></span>
-		<h7>Hi, I'm Alex. I'm a designer and developer specilizing in front-end development, brand identity, web design, UI and UX. I'm a Los Angeles native and currently a senior at Tufts University in the School of Arts and Sciences. I expect to graduate in May 2017 with a Bachelor of Science in Computer Science and a minor in Entrepreneurial Leadership.</h7>
+		<h7>Hi, I’m Alex. I’m a designer and developer specilizing in front-end development, brand identity, web design, UI and UX. I’m a Los Angeles native and recent graduate of Tufts University in the School of Arts and Sciences with a Bachelor of Science in Computer Science and a Minor in Entrepreneurial Leadership.</h7>
 
 	</div>
 	
@@ -20,30 +20,7 @@
 
 </div>
 </div>
-<!-- <div class='container contrast'>
-	<div class='container'>
-		<div class='col-xs-24 content '>
-			<h6 class='center'>Work</h6> 
-			<div class='frow fwrap' id='work-img'>
-				<div class='col-xs-20 col-md-10 grid4 fcol'>
-					<div class='col-xs-12'> 
-						<img class='top' src="img/home/cr.jpg" >
-						<img id='' src="img/home/bjj.jpg">
-					</div>
-					<div class='col-xs-12'>
-						<img class='top' src="img/home/tim.jpg">
-						<img id='work-vox' src="img/home/vox.jpg">
-					</div>
-				</div>
-				<div class='col-xs-20 col-sm-14 col-md-10 col-md-offset-2 fcol' style="padding-top: 20px">
-					<p class='center ' id=''>View some selected works in my portfolio. Projects include work with a women's clothing line, a jewlery company, mobile app design and development.</p>
-					<a href="work.html"><h5 class='pull-right'>View Portfolio <i class="fa fa-arrow-right" aria-hidden="true"></i>
-					</h5></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div> -->
+
 <div class='container contrast'>
 	<div class='container'>
 		<div class='col-xs-24 content '>
