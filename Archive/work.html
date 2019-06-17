@@ -8,7 +8,7 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title> {{ page_title }} | Alexander Ravan </title>
+	<title> Portfolio | Alexander Ravan </title>
 
 
 	<!-- Bootstrap core CSS -->
@@ -49,11 +49,94 @@
 	  
   </head>
 
-	<body class="{{body_class}}">
-	{% include "partials/navigation.nunjucks" %}
+	<body class="work">
+	<!-- navigation.nunjucks -->
+<div class='nav'>
+	<div class='container'>
+		<div class='col-xs-19'><a id='logo' href="index.html"><h2>Alexander Ravan</h2></a></div>
+		<div class='pull-right'>
+			<button class="hamburger--spin" id='ham' type="button" >
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
+		</div>
+	</div>
+</div>
+
+<div class='mode'>
+	<div id='mode-nav' class='col-xs-12 col-xs-offset-6'>
+		<a href="index.html"><h2><u>Home</u></h2></a>
+		<a href="about.html"><h2><u>About</u></h2></a>
+		<a href="work.html"><h2><u>Work</u></h2></a>
+		<a href="resume.html"><h2><u>Resume</u></h2></a>
+		<a href="https://github.com/alexravan?tab=repositories"><h2><u>GitHub</u></h2></a>
+
+	</div> 
+</div>
 	  <!-- You write code for this content block in another file -->
-	  {% block content %} {% endblock %}
-	{% include "partials/footer.nunjucks" %}
+	  
+<div class='container-fluid contrast test header' >
+	<img src="img/headers/header-01.png">
+</div>
+
+
+<div class='container gallery content'>
+<!-- Design & Development-->
+
+	<div class='col-xs-12 col-md-8'>
+		<img src="img/work/tile-03.png">
+	</div>
+	<div class='col-xs-12 col-md-8'>
+		<a href="idikia.html"><img src="img/work/idikia/thumb.png"></a>
+	</div>
+	<div class='col-xs-12 col-md-8'>
+		<a href="cr.html"><img src="img/work/cr/thumb.png"></a>
+	</div>
+	<div class='col-xs-12 col-md-8'>
+		<a href="bevgrove.html"><img src="img/work/bevgrove/thumb.png"></a>
+	</div>
+	
+<!-- Design -->
+	<div class='col-xs-12 col-md-8'>
+		<img src="img/work/tile-01.png">
+	</div>
+	
+	<div class='col-xs-12 col-md-8'>
+		<a href="tim.html"><img src="img/work/tim/thumb.png"></a>
+	</div>
+	<div class='col-xs-12 col-md-8'>
+		<a href="vox.html"><img src="img/work/vox/thumb.png"></a>
+	</div>
+	<div class='col-xs-12 col-md-8'>
+		<a href="bjj.html"><img src="img/work/bjj/thumb.png"></a>
+	</div>
+	<div class='col-xs-12 col-md-8'>
+		<a href="bungalow.html"><img src="img/work/bungalow/thumb.png"></a>
+	</div>
+<!-- Development -->
+	<div class='col-xs-12 col-md-8'>
+		<img src="img/work/tile-02.png">
+	</div>
+	<div class='col-xs-12 col-md-8'>
+		<a href="suechef.html"><img src="img/work/suechef/thumb.png"></a>
+	</div>
+	<div class='col-xs-12 col-md-8'>
+		<a href="https://github.com/alexravan/maxent-grader"><img src="img/work/nlp/thumb.png"></a>
+	</div>
+</div>
+
+	<!-- footer.nunjucks -->
+<div id='footer' class='container contrast contact'>
+	<div class='container'>
+		<div class='col-xs-24 content'>
+			<h1>get in touch</h1> 
+			<h4> <span ><img class='phone' src="img/phone.svg"></span> &nbsp; <a class='nostyle' href="tel:3234758471">(323)&nbsp;475-8471</a></h4>
+			<h4><a class='nostyle' href="mailto:hello@alexravan.com" ><span><img class='phone' src="img/email.svg"></span></a> &nbsp; <a class='nostyle' href="mailto:hello@alexravan.com">hello@alexravan.com</h4></a>
+		</div>
+	</div>
+</div>
+
 	</body>
 
 
@@ -77,7 +160,7 @@
 	<script src="responsify/responsify.min.js"></script>
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	<!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
-	{% block js %}{% endblock %}
+	
 <script type="text/javascript">
 	window.sr = ScrollReveal();
 	// sr.reveal('#work-img');

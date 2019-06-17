@@ -26,9 +26,9 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 	<!-- TOOLTIP -->
-	<link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
+	<link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.css" />
 
-	<link rel="stylesheet" type="text/css" href="tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.min.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.min.css" /> -->
 	<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script> -->
 
 	<!-- Caption -->
@@ -45,6 +45,8 @@
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	  <![endif]-->
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	  
   </head>
 
 	<body class="project">
@@ -102,11 +104,11 @@
 <div class='container contrast'>
 	<div class='container'>
 		<div class='col-xs-24 content '>
-			<h6 class='center'>Shopify Site</h6>
+			<h6 class='center reveal'>Shopify Site</h6>
 
-		<div class='row'> <img src="img/work/cr/home.png"></div>
-		<div class='row'> <img src="img/work/cr/product.png"></div>
-		<div class='row'> <img src="img/work/cr/collection.png"></div>
+		<div class='row reveal'> <img src="img/work/cr/home.png"></div>
+		<div class='row reveal'> <img src="img/work/cr/product.png"></div>
+		<div class='row reveal'> <img src="img/work/cr/collection.png"></div>
 
 
 		</div>
@@ -114,8 +116,10 @@
 </div>
 <div class='container content'>
 	<div class='row'>
+			<h6 class='center reveal'>Campaign Photography</h6>
+
 		<div class='gallery'>
-			<div class='row'>
+			<div class='row reveal'>
 				<div class='col-xs-12 '>
 					<img src="img/work/cr/8-1.jpg">
 				</div>
@@ -123,7 +127,7 @@
 					<img src="img/work/cr/8-2.jpg">
 				</div>
 			</div>
-			<div class='row'>
+			<div class='row reveal'>
 				<div class='col-xs-12 '>
 					<img src="img/work/cr/CR9-9254.jpg">
 				</div>
@@ -131,7 +135,7 @@
 					<img src="img/work/cr/2.jpg">
 				</div>
 			</div>
-
+			<div class='row reveal'>
 				<div class='col-xs-12 col-md-8'>
 					<img src="img/work/cr/12.jpg">
 				</div>
@@ -142,17 +146,22 @@
 				<div class='col-xs-12 col-md-8'>
 					<img src="img/work/cr/4.jpg">
 				</div>
-
-			<div class='col-xs-12 col-md-8'>
-				<img src="img/work/cr/CR9-8780.jpg">
+				<div class='col-xs-12 col-md-8 visible-sm visible-xs'>
+					<img src="img/work/cr/CR9--6.jpg">
+				</div>
 			</div>
-		<!-- 	<div class='col-xs-12 col-md-8 '>
-				<img src="img/work/cr/6.jpg">
+			<div class='row reveal'>
+				<div class='col-xs-12 col-md-8'>
+					<img src="img/work/cr/CR9-8780.jpg">
+				</div>
+				<div class='col-xs-12 col-md-8 '>
+					<img src="img/work/cr/CR9-8745.jpg">
+				</div>
+				<div class='col-xs-12 col-md-8 hidden-sm hidden-xs'>
+					<img src="img/work/cr/CR9--6.jpg">
+				</div>
 			</div>
-			<div class='col-xs-12 col-md-8 '>
-				<img src="img/work/cr/7.jpg">
-			</div>
-			 -->
+				
 		</div>
 	</div>
 </div>
@@ -192,13 +201,12 @@
 	<div class='container'>
 		<div class='col-xs-24 content'>
 			<h1>get in touch</h1> 
-			<h4> <span ><img class='phone' src="img/phone.svg"></span> &nbsp; (310) 429-6530</h4>
+			<h4> <span ><img class='phone' src="img/phone.svg"></span> &nbsp; <a class='nostyle' href="tel:3234758471">(323)&nbsp;475-8471</a></h4>
 			<h4><a class='nostyle' href="mailto:hello@alexravan.com" ><span><img class='phone' src="img/email.svg"></span></a> &nbsp; <a class='nostyle' href="mailto:hello@alexravan.com">hello@alexravan.com</h4></a>
 		</div>
 	</div>
 </div>
 
-	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	</body>
 
 
@@ -228,13 +236,13 @@
         windowWidth = $(window).width()
 
           if ( windowWidth < 800 ){
-            $('#cover').attr('src', '../img/work/cr/cover-01.jpg');
+            $('#cover').attr('src', 'img/work/cr/cover-01.jpg');
           }
           else if (windowWidth >= 800 && windowWidth < 1200) {
-            $('#cover').attr('src', '../img/work/cr/cover-02.jpg');
+            $('#cover').attr('src', 'img/work/cr/cover-02.jpg');
           }
           else if (windowWidth >= 1200) {
-            $('#cover').attr('src', '../img/work/cr/cover-03.jpg');
+            $('#cover').attr('src', 'img/work/cr/cover-03.jpg');
           }
       }
 
@@ -243,7 +251,11 @@
 
     </script>
 
-
+<script type="text/javascript">
+	window.sr = ScrollReveal();
+	// sr.reveal('#work-img');
+	sr.reveal('.reveal');
+</script>
 	 <script type="text/javascript">
 		
 		$(document).ready(function(){

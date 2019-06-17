@@ -26,9 +26,9 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 	<!-- TOOLTIP -->
-	<link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
+	<link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.css" />
 
-	<link rel="stylesheet" type="text/css" href="tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.min.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="tooltipster/dist/css/plugins/tooltipster/sideTip/themes/tooltipster-sideTip-borderless.min.css" /> -->
 	<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script> -->
 
 	<!-- Caption -->
@@ -45,6 +45,8 @@
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	  <![endif]-->
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	  
   </head>
 
 	<body class="project">
@@ -95,8 +97,6 @@
 					<li>Piccaso</li>
 					<li>CMUSphinx</li>
 					<li>API.AI</li>
-
-
 				</ul>
 
 				<a href="https://play.google.com/store/apps/details?id=com.vincenttran.suechef" target="_blank"><h5 class='pull-right'>View in Google Play <i class="fa fa-arrow-right" aria-hidden="true"></i>
@@ -104,7 +104,7 @@
 
 			</div>
 		</div>
-		<div class='gallery'>
+		<div class='gallery reveal'>
 			<div class='col-xs-12 col-md-10 col-md-offset-2'>
 				<img src="img/work/suechef/1.png">
 			</div>
@@ -128,13 +128,12 @@
 	<div class='container'>
 		<div class='col-xs-24 content'>
 			<h1>get in touch</h1> 
-			<h4> <span ><img class='phone' src="img/phone.svg"></span> &nbsp; (310) 429-6530</h4>
+			<h4> <span ><img class='phone' src="img/phone.svg"></span> &nbsp; <a class='nostyle' href="tel:3234758471">(323)&nbsp;475-8471</a></h4>
 			<h4><a class='nostyle' href="mailto:hello@alexravan.com" ><span><img class='phone' src="img/email.svg"></span></a> &nbsp; <a class='nostyle' href="mailto:hello@alexravan.com">hello@alexravan.com</h4></a>
 		</div>
 	</div>
 </div>
 
-	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	</body>
 
 
@@ -159,7 +158,11 @@
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	<!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
 	
-
+<script type="text/javascript">
+	window.sr = ScrollReveal();
+	// sr.reveal('#work-img');
+	sr.reveal('.reveal');
+</script>
 	 <script type="text/javascript">
 		
 		$(document).ready(function(){
